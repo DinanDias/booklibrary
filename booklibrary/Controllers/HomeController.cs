@@ -28,10 +28,7 @@ namespace booklibrary.Controllers
             return View();
         }
 
-        public IActionResult BookIndex()
-        {
-            return View();
-        }
+     
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
